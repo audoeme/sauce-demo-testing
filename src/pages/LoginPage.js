@@ -15,5 +15,5 @@ export class LoginPage {
     await this.page.fill(this.username, user);
     await this.page.fill(this.password, pass);
     await this.page.click(this.loginButton);
-  }
+  } 
 }
